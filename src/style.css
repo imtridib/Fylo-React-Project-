@@ -318,72 +318,45 @@ h6 {
 .d{
     padding-left: 0px;
 }
-.e{
-    margin-top: 10px;
-    margin-right: 170px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} 
 
-.fb{
-    height: 30px;
-    width: 30px ;
-    border-radius: 100%;
-    border:  white;
-    color:white;
-    margin-right: 12px;
-    background-color:rgb(5, 40, 51);
+
+.e {
+  margin-top: 10px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.fb img{
-    height: 30px;
-    width: 30px ;
-    color:white;
+
+.fb, .tw, .ins {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(5, 40, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 15px; /* Increased margin for more gap between icons */
+  cursor: pointer; /* Add cursor pointer to indicate clickability */
 }
-.fb:hover {
-    color:rgb(5, 40, 51);
-    background-color: #FF8ED6;    
-    box-shadow: .1px 0px 20px .01px #dd9cbf;
+
+.fb:hover, .tw:hover, .ins:hover {
+  background-color: #FF8ED6;
+  transform: scale(1.5);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
-.tw{
-    height: 28px;
-    width: 29px ;
-    border-radius: 90%;
-    border-bottom-right-radius: 340%;
-    border-bottom-left-radius: 400%;
-    border-top-right-radius: 400%;
-    border-top-left-radius: 500%;
-    color: 3px white;
-    margin-right: 12px;
-    background-color:rgb(5, 40, 51);
+
+.fb.clicked, .tw.clicked, .ins.clicked {
+  transform: scale(1.2); /* Shrink the icon when clicked */
 }
-.tw img{
-    width: fit-content;
-    height: 30px;
-    width: 31px ;
-}
-.tw:hover {
-    color:rgb(5, 40, 51);
-    background-color: #FF8ED6;    
-    box-shadow: .1px 0px 20px .01px #dd9cbf;
-}
-.ins{
-    height: 27px;
-    width: 27px ;
-    border-radius: 100%;
-    border: 3px white;
-    color:white;
-    background-color:rgb(5, 40, 51);
-}
-.ins img{
-    height: 27px;
-    width: 27px ;
-    color:white;
-}
-.ins:hover {
-    background-color: #FF8ED6;    
-    box-shadow: .1px 0px 20px .01px #dd9cbf;
-}
+
+
+
+
+
+
 .de{
     font-size: 12px;
     margin-right: 160px;
@@ -391,5 +364,8 @@ h6 {
     
 }
 .attribution{
-    text-align: center;
+    background-color: rgb(5, 40, 51);
+  text-align: center;
+  color: antiquewhite;
+  margin: 0px;
 }

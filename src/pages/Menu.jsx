@@ -6,6 +6,9 @@
 
 /** @format */
 
+
+import Socialcons from "./Socialcons";
+
 import Illus from "../img/illustration-1.svg";
 import Illus2 from "../img/illustration-2.svg";
 import icon from "../img/icon-quotes.svg";
@@ -14,9 +17,7 @@ import back from "../img/bg-curve-desktop.svg";
 import logo from "../img/logo.svg";
 import phone from "../img/icon-phone.svg";
 import email from "../img/icon-email.svg";
-import fb from "../img/facebook.png";
-import bird from "../img/bird-circles-line-neon-social-tweet-twitter-icon-71311.png";
-import ins from "../img/instagram (2).png";
+import { LiaFacebook, LiaTwitter, LiaInstagram } from "react-icons/lia";
 export default function Menu() {
   return (
     <>
@@ -160,35 +161,11 @@ export default function Menu() {
             <p> Blog</p>
             <p> Contact Us</p>
           </div>
-          <div className='e'>
-            <div className='fb'>
-              <img src={fb} />
-            </div>
-            <div className='tw'>
-              <img src={bird} />
-            </div>
-            <div className='ins'>
-              <img src={ins} />
-            </div>
-          </div>
+          <Socialcons />
         </div>
         <div className='de'>
           <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
         </div>
-
-        <footer>
-          <p className='attribution'>
-            Challenge by{" "}
-            <a href='#' target='_blank'>
-              Frontend Mentor
-            </a>
-            . Coded by{" "}
-            <a href='https://www.facebook.com/tridib.chakraborty.180'>
-              Tridib Chakraborty
-            </a>
-            .
-          </p>
-        </footer>
       </div>
     </>
   );

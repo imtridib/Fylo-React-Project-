@@ -1,6 +1,7 @@
 /** @format */
 
 import Navbar from "./pages/Navbar";
+import Footer from "./pages/Footer";
 import "./style.css";
 import Menu from "./pages/Menu";
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <>
       <Navbar />
       <Menu />
+      <Footer />
     </>
   );
 }
