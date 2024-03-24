@@ -49,7 +49,6 @@ export default function Menu() {
       </div>
 
       <img className='back' src={back} alt='back' height='15%' width='100%' />
-
       <div className='container-2'>
         <div className='para-2'>
           <h1 className='h2'>Stay productive, wherever you are</h1>

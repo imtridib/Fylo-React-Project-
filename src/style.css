@@ -84,14 +84,14 @@ h6 {
     background-position: center top; /* Center horizontally and top vertically */
     background-repeat: no-repeat;
     margin-top: 150px;
-    margin-bottom: 0;
+    margin-bottom: -5px;
 }
 
 
 .container-2 {
     height: 705px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
