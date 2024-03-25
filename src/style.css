@@ -23,13 +23,7 @@ h6 {
     margin-left: 45px;
     margin-top: 25px;
 }
-/* .menubar{
-    font-size: x-large;
-    text-align: left;
-    margin-left: auto;
-    display: grid;
-    grid-template-columns: 155px 155px 155px;
-} */
+
 
 .menubar {
     font-size: x-large;
@@ -115,9 +109,7 @@ h6 {
     text-decoration: underline;
     text-decoration-color: #64b4a4;
 }
-.tex{
-    
-}
+
 .arr{
     margin-top: 14px;
     margin-left: 8px;
@@ -126,7 +118,6 @@ h6 {
     width: 465px; 
     height: 285px;
     margin: 0px;
-    margin:0px;
     display: flex;
     flex-direction: column;
     align-self:center;
@@ -154,7 +145,8 @@ h6 {
 .profileimage{
     height: 70px;
     width: 70px;
-    margin-top: 0px;
+ margin-top: 0px; 
+
     margin-left: 35px;
     background-position: center;
     background-repeat: no-repeat;
@@ -168,7 +160,7 @@ h6 {
 }
 .text{
     margin: 0px;
-    margin-top: 4px;
+    margin-top: 4px; 
     margin-left: 15px;
     font-size: 19px;
 }
@@ -180,7 +172,7 @@ h6 {
 }
 
 .image2{
-    margin-top: 105px;
+     margin-top: 105px;
     margin-right: 45px;
 }
 
@@ -220,7 +212,7 @@ h6 {
 
 .t1{
     margin-left: 36px;
-    margin-top: 65px;
+    margin-top: 25px;
     width: 385px;
 }
 .text-2{
@@ -352,11 +344,6 @@ h6 {
   transform: scale(1.2); /* Shrink the icon when clicked */
 }
 
-
-
-
-
-
 .de{
     font-size: 12px;
     margin-right: 160px;
@@ -369,3 +356,8 @@ h6 {
   color: antiquewhite;
   margin: 0px;
 }
+
+
+
+
+
