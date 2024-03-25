@@ -23,9 +23,11 @@ export default function Menu() {
     <>
       <div className='container-1'>
         <div className='para-1'>
-          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <h1 className='h1'>
+            All your files in one secure location, accessible anywhere.
+          </h1>
 
-          <p>
+          <p className='p1'>
             Fylo stores your most important files in one secure location. Access
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
@@ -45,7 +47,13 @@ export default function Menu() {
             </form>
           </div>
         </div>
-        <img src={Illus} alt='image' height='455px' width='585px' />
+        <img
+          className='illus1'
+          src={Illus}
+          alt='image'
+          height='455px'
+          width='585px'
+        />
       </div>
 
       <img className='back' src={back} alt='back' height='15%' width='100%' />

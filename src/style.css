@@ -361,3 +361,89 @@ h6 {
 
 
 
+@media only screen and (max-width: 768px) {
+     
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.menubar {
+    grid-template-columns: 105px 105px 105px;
+    grid-column-gap: 5px; 
+}
+
+.container-1{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column-reverse;
+}
+
+.illus1{
+    align-self: center;
+    padding: 15px;
+}
+
+.para-1{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.h1{
+    margin: 0 auto;
+    width: 550px;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.p1{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 600px;
+    text-align: center; 
+    line-height: 1.5;  
+    font-size: 20px;
+}
+
+.email1{
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;  
+    align-self: center; 
+}
+.email{
+    height: 60px;
+    width: 455px;
+    background-color:whitesmoke;
+    align-self: center;
+    border-radius: 5px;
+     font-size: large;
+}
+.button1{
+    background-color: rgb(31, 0, 167);
+    margin-left: 0px;
+    margin-top: 5px;
+    color:white;
+    height: 60px;
+    width: 465px;
+    align-self: center;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+}
+
+}
