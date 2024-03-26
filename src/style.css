@@ -27,13 +27,32 @@ h6 {
 
 .menubar {
     font-size: x-large;
-    text-align: right;
+    text-align: center;
+    margin:0px;
     margin-left: auto;
     display: grid;
     grid-template-columns: 155px 155px 155px;
     grid-column-gap: 35px; /* Adjust the value to your preference */
 }
+.options {
+  position: relative;
+  display: inline-block;
+}
 
+.options::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 100%; /* Initially, set the width to 0 */
+  bottom: -2px;
+  height: 2px;
+  background-color: black; /* Initial color of the underline */
+  transition: right 0.3s ease; /* Transition the width */
+}
+
+.options:hover::after {
+  right: 0; /* Expand the width to 100% on hover */
+}
 .m1{
     margin-left: auto;
 }
@@ -704,10 +723,31 @@ html,body {
     padding: 6.25vw; /* 15px / 350px * 100vw = 6.25vw */
 }
 
+.email{
+    margin-top: 10px;   
+    height: 10vw;
+    width: 62vw;
+    font-size: 3.5vw;
+}
+.button1{
+    margin-top: 10px;
+    color:white;
+    height: 10.5vw;
+    width: 64vw;
+    border-radius: 7px;
+    font-size: 3.5vw;
+}
+
 .back {
     margin-top: 45px;
 }
+.container-2 {
+    height: 950px;
+}
 
+.container-2 > * {
+    margin: 0; /* Remove margin for child elements */
+}
 
 .image2{
     margin-top: 0px;
@@ -718,4 +758,79 @@ html,body {
     padding: 6.25vw; /* 15px / 350px * 100vw = 6.25vw */
 }
 
+.ph1 {
+    font-size: 4vw; /* Setting font size relative to viewport width */
+}
+
+.arrow {
+    margin-bottom: 25px;
+    font-size: 4vw;
+}
+
+.info{
+    width: 75vw; 
+    height: 250px;
+    margin: 25px auto;
+    margin-bottom: 35px;
+}
+
+.quotes{
+    margin-top: 0px;
+    margin-left: 3vw;
+    width: 5vw;
+}
+
+.quote-para{
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 3.5vw;
+    line-height: 5vw;
+}
+
+.text{
+    margin-top:28px; 
+    margin-left: 3vw;
+    font-size: 3.5vw;
+}
+
+.textp{
+    margin-top: 6px;
+    margin-left: 3vw;
+    font-size: 3vw;
+}
+
+.container-3 {
+    height: 320px;
+}
+
+.t1{
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 550px; /* Limiting maximum width */
+    font-size: 6vw; /* Setting font size relative to viewport width */
+}
+
+.text-2{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3.5vw; /* Setting font size relative to viewport width */
+}
+
+.emaill{
+    margin-top: 0px;   
+    height: 10vw;
+    width: 62vw;
+    font-size: 3.5vw;
+}
+.button2{
+    margin-top: 10px;
+    color:white;
+    height: 10.5vw;
+    width: 64vw;
+    border-radius: 7px;
+    font-size: 3.5vw;
+}
 }

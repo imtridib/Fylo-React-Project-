@@ -6,11 +6,11 @@ export default function Navbar() {
     <>
       <div className='navbar'>
         <img className='limg' src={Logo} alt='logo' />
-        <div className='menubar'>
-          <div>Features</div>
-          <div>Team</div>
-          <div>Sign In</div>
-        </div>
+        <ul className='menubar'>
+          <li className='options'>Features</li>
+          <li className='options'>Team</li>
+          <li className='options'>Sign In</li>
+        </ul>
       </div>
     </>
   );
