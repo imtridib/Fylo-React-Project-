@@ -330,7 +330,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin-right: 25px; /* Increased margin for more gap between icons */
   cursor: pointer; /* Add cursor pointer to indicate clickability */
