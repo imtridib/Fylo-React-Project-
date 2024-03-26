@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
       <div className='navbar'>
-        <img src={Logo} alt='logo' />
+        <img className='limg' src={Logo} alt='logo' />
         <div className='menubar'>
           <div>Features</div>
           <div>Team</div>

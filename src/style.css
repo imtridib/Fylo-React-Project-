@@ -684,3 +684,38 @@ html,body {
     align-self: center;    
 }
 }
+
+@media only screen and (max-width: 425px) {
+
+.limg{
+    height: 30px;
+    width: 95px;
+}
+.menubar {
+    grid-template-columns: 50px 50px 50px;
+    grid-column-gap: 5px; 
+    font-size: 3vw;
+} 
+
+.illus1{
+    height: 75vw; /* 275px / 350px * 100vw = 38.75vw */
+    width: 95vw;     /* 350px / 350px * 100vw = 50vw */
+    align-self: center;
+    padding: 6.25vw; /* 15px / 350px * 100vw = 6.25vw */
+}
+
+.back {
+    margin-top: 45px;
+}
+
+
+.image2{
+    margin-top: 0px;
+    margin-right: 0px;
+    height: 75vw; /* 275px / 350px * 100vw = 38.75vw */
+    width: 95vw;     /* 350px / 350px * 100vw = 50vw */
+    align-self: center;
+    padding: 6.25vw; /* 15px / 350px * 100vw = 6.25vw */
+}
+
+}
