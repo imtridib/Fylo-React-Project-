@@ -306,9 +306,11 @@ h6 {
 
 .c{
     padding-left: 0px;
+    font-size: 15px;
 }
 .d{
     padding-left: 0px;
+    font-size: 15px;
 }
 
 
@@ -362,19 +364,28 @@ h6 {
 
 
 @media only screen and (max-width: 768px) {
-     
+   
+html,body { 
+    height: 100%;
+    width: 100%;  
+    position:relative;
+    font-family: 'Open Sans';
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin: 10% auto;
 }
 
 .menubar {
     grid-template-columns: 105px 105px 105px;
     grid-column-gap: 5px; 
+    font-size: 3vw;
 }
 
 .container-1{
@@ -384,6 +395,7 @@ h6 {
     display: flex;
     justify-content: space-between;
     flex-direction:column-reverse;
+    align-items: center;
 }
 
 .illus1{
@@ -398,24 +410,23 @@ h6 {
 }
 
 .h1{
-    margin: 0 auto;
-    width: 550px;
+     margin: 0 auto;
+    max-width: 550px; /* Limiting maximum width */
     text-align: center;
-    align-items: center;
-    font-size: 35px;
+    font-size: 5vw; /* Setting font size relative to viewport width */
     font-weight: bolder;
     line-height: 1.5;
     padding: 10px 0;
 }
 
-.p1{
+.p1 {
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 600px;
-    text-align: center; 
-    line-height: 1.5;  
-    font-size: 20px;
+    max-width: 600px; /* Limiting maximum width */
+    text-align: center;
+    line-height: 1.5;
+    font-size: 3vw; /* Setting font size relative to viewport width */
 }
 
 .email1{
@@ -426,24 +437,251 @@ h6 {
     align-self: center; 
 }
 .email{
-    height: 60px;
-    width: 455px;
+    height: 8vw;
+    width: 59vw;
     background-color:whitesmoke;
     align-self: center;
     border-radius: 5px;
-     font-size: large;
+     font-size: 3vw;
 }
 .button1{
-    background-color: rgb(31, 0, 167);
+    background-color: rgb(72, 75, 208);
     margin-left: 0px;
     margin-top: 5px;
     color:white;
-    height: 60px;
-    width: 465px;
+    height: 8vw;
+    width: 60.5vw;
     align-self: center;
     border-radius: 8px;
-    font-size: large;
+    font-size: 3vw;
     font-weight: bold;
 }
 
+.container-2 {
+     height: 1400px;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    background-color: rgba(248, 248, 254, 255);
+    align-items: center;
+}
+
+.container-2 > * {
+    margin: 0; /* Remove margin for child elements */
+}
+
+.image2{
+    margin-top: 15px;
+    margin-right: 0px;
+    align-self: center;
+    padding: 15px;
+}
+
+.h2{
+    margin: 0 auto;
+    max-width: 550px; /* Limiting maximum width */
+    text-align: center;
+    font-size: 5vw; /* Setting font size relative to viewport width */
+    font-weight: bolder;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.ph1 {
+    margin: auto;
+    margin-top: 2vw; /* Adjust top margin for responsiveness */
+    margin-bottom: 2vw; /* Adjust bottom margin for responsiveness */
+    max-width: 80vw; /* Limiting maximum width to 80% of viewport width */
+    text-align: start;
+    line-height: 1.5;
+    font-size: 3vw; /* Setting font size relative to viewport width */
+}
+
+
+.arrow {
+    align-items: center; /* Align items vertically center */
+    justify-content: center; /* Align items horizontally center */
+    margin-bottom: 25px;
+    font-size: 3vw;
+}
+.arr{
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.para-2{
+    margin-left: 0px;
+}
+
+.info{
+    width: 68vw; 
+    height: 300px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    justify-content: center;
+    border-radius: 15px;
+    background: white;
+    text-align: none;  
+    box-shadow: 0.1px 0px 20px 0.1px rgba(131, 130, 130, 0.5);
+}
+
+.quotes{
+    margin-top: 12px;
+    margin-left: 3vw;
+    width: 3vw;
+}
+.quote-para{
+    margin-top: 15px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 2.5vw;
+}
+.profileimage{ 
+   height: 70px;
+   width: 70px;  
+   margin-top: 15px; 
+   margin-left: 3vw;   
+}
+
+.text{
+    margin: 0px;
+    margin-top:18px; 
+    margin-left: 2vw;
+    font-size: 3vw;
+}
+.textp{
+    margin: 0px;
+    margin-top: 8px;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+.container-3 {
+    color: white;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+    background-color: #585c8c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center;
+}
+
+.container-3 > * {
+    margin: 0; 
+    flex: 1; 
+}
+
+.t1{
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 550px; /* Limiting maximum width */
+    text-align: center;
+    font-size: 5vw; /* Setting font size relative to viewport width */
+    font-weight: bolder;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+.text-2{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 600px; /* Limiting maximum width */
+    text-align: center;
+    line-height: 1.5;
+    font-size: 3vw; /* Setting font size relative to viewport width */
+}
+
+.email2{
+     margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;  
+    align-self: center; 
+}
+.emaill{
+    height: 8vw;
+    width: 48vw;
+    background-color:whitesmoke;
+    align-self: center;
+    border-radius: 5px;
+     font-size: 3vw;
+}
+
+.button2{
+    background-color: rgb(72, 75, 208);
+    margin-left: 0px;
+    margin-top: 5px;
+    height: 8vw;
+    width: 49vw;
+    align-self: center;
+    border-radius: 8px;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.container-4{
+    width: 100%;    
+    margin:0px;    
+    display: flex;
+    background-color: rgb(5, 40, 51);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    color: white;
+    align-items: start;
+}
+
+.icon2{
+    max-height: 30px;
+    max-width: 170px;
+    margin-top:35px;
+    margin-bottom: 25px;
+    margin-left: 40px; 
+      
+}
+
+.icon2 img{
+    padding-top: 2px ;
+    padding-left: 0px;
+    width: 160px;    
+}
+
+.main2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.c{
+    margin-left: 40px; 
+}
+.d{
+    margin-left: 40px; 
+}
+.e {
+  margin-top: 10px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;  
+}
+.fb, .tw, .ins {
+  margin: 5px; /* Increased margin for more gap between icons */
+}
+.de{
+    font-size: 12px;
+    margin-right: 0px;
+    text-align:center;
+    align-self: center;    
+}
 }

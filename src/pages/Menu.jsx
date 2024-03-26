@@ -74,8 +74,8 @@ export default function Menu() {
             <div className='arr'>
               <img
                 src={iconarrow}
-                height='25px'
-                width='25px'
+                height='35vw'
+                width='35vw'
                 alt='icon-arrow'
               />
             </div>
@@ -119,7 +119,7 @@ export default function Menu() {
           </p>
         </div>
 
-        <div>
+        <div className='eml'>
           <form className='email2'>
             <label for='email'></label>
             <input
