@@ -316,15 +316,15 @@ h6 {
 
 .e {
   margin-top: 10px;
-  margin-right: 100px;
+  margin-right: 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .fb, .tw, .ins {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background-color: rgb(5, 40, 51);
   display: flex;
@@ -332,7 +332,7 @@ h6 {
   align-items: center;
   transition: all 0.3s ease;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  margin-right: 15px; /* Increased margin for more gap between icons */
+  margin-right: 25px; /* Increased margin for more gap between icons */
   cursor: pointer; /* Add cursor pointer to indicate clickability */
 }
 
@@ -348,9 +348,8 @@ h6 {
 
 .de{
     font-size: 12px;
-    margin-right: 160px;
-    text-align:right;
-    
+    margin-right: 75px;
+    text-align:right;    
 }
 .attribution{
     background-color: rgb(5, 40, 51);
