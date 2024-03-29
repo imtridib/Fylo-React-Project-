@@ -74,22 +74,26 @@ h6 {
 }
 
 .email1{
+    cursor: pointer;
     display: flex;
     flex-direction: row;   
 }
 
-.email{
+.email{    
+    cursor: pointer;
     height: 50px;
     width: 255px;
     background-color:whitesmoke;
     border-radius: 5px;
 }
-.button1{
-    background-color: rgb(47, 0, 255);
+.button1{    
+    cursor: pointer;
+    background-color: rgb(72, 75, 208);
     margin-left: 15px;
     color:white;
-    height: 56px;
-    width: 185px;
+    height: 65px;
+    width: 235px;
+    font-size: 15px;
     border-radius: 8px;
 }
 
@@ -221,11 +225,13 @@ h6 {
     border-radius: 5px;
 }
 .button2{
+    cursor: pointer;
     background-color: rgb(72, 75, 208);
     margin-left: 15px;
     color:white;
-    height: 56px;
-    width: 185px;
+    height: 65px;
+    width: 235px;
+    font-size: 15px;
     border-radius: 8px;
 }
 
@@ -478,13 +484,13 @@ html,body {
     cursor: pointer;
     background-color: rgb(72, 75, 208);
     margin-left: 0px;
-    margin-top: 5px;
+    margin-top: 10px;
     color:white;
-    height: 8vw;
-    width: 60.5vw;
+    height: 10vw;
+    width: 62vw;
     align-self: center;
     border-radius: 8px;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: bold;
 }
 
@@ -594,7 +600,7 @@ html,body {
 
 .container-3 {
     color: white;
-    height: 550px;
+    height: 590px;
     margin: 0;
     padding: 0;
     background-color: #585c8c;
@@ -650,9 +656,9 @@ html,body {
     cursor: pointer;
     background-color: rgb(72, 75, 208);
     margin-left: 0px;
-    margin-top: 5px;
-    height: 8vw;
-    width: 49vw;
+    margin-top: 15px;
+    height: 10vw;
+    width: 50vw;
     align-self: center;
     border-radius: 8px;
     font-size: 3vw;
@@ -747,8 +753,8 @@ html,body {
 .button1{
     margin-top: 10px;
     color:white;
-    height: 10.5vw;
-    width: 64vw;
+    height: 13vw;
+    width: 68vw;
     border-radius: 7px;
     font-size: 3.5vw;
 }
@@ -843,8 +849,8 @@ html,body {
 .button2{
     margin-top: 10px;
     color:white;
-    height: 10.5vw;
-    width: 64vw;
+    height: 13vw;
+    width: 68vw;
     border-radius: 7px;
     font-size: 3.5vw;
 }

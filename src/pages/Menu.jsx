@@ -40,7 +40,8 @@ export default function Menu() {
                 type='email'
                 id='email'
                 name='email'
-                placeholder='  Enter you email...'
+                placeholder='Enter you email...'
+                style={{ padding: "5px", paddingLeft: "10px" }}
               />
               <button className='button1'>Get Started For Free</button>
             </form>
@@ -126,6 +127,7 @@ export default function Menu() {
               id='email'
               name='email'
               placeholder='  Enter you email...'
+              style={{ padding: "5px", paddingLeft: "10px" }}
             />
             <button className='button2'>Get Started For Free</button>
           </form>
