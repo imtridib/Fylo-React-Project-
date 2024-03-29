@@ -18,7 +18,7 @@ h6 {
 .navbar{
     display: flex;
     flex-direction: row;
-    padding-top: 4vw;
+    padding-top: 2vw;
     justify-content:space-between;
     margin-right: 45px;
     margin-left: 45px;
@@ -36,24 +36,33 @@ h6 {
     grid-column-gap: 35px; /* Adjust the value to your preference */
 }
 .options {
+  cursor: pointer;
   position: relative;
   display: inline-block;
+}
+
+.options {
+  margin-right: 20px; /* Adjust spacing between menu items */
+  position: relative;
+  cursor: pointer; /* Make menu items clickable */
 }
 
 .options::after {
   content: '';
   position: absolute;
+  bottom: -2px; /* Adjust to be just below the text */
   left: 0;
-  right: 100%; /* Initially, set the width to 0 */
-  bottom: -2px;
-  height: 2px;
-  background-color: black; /* Initial color of the underline */
-  transition: right 0.3s ease; /* Transition the width */
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the underline */
+  background-color: #000; /* Change the color of the underline as needed */
+  transform: scaleX(0); /* Initially hide the underline */
+  transition: transform 0.3s ease-in-out; /* Add transition for effect */
 }
 
 .options:hover::after {
-  right: 0; /* Expand the width to 100% on hover */
+  transform: scaleX(1); /* Show the underline on hover */
 }
+
 .m1{
     margin-left: auto;
 }
