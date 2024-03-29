@@ -12,16 +12,12 @@ function SocialIcons() {
 
   return (
     <div className='e'>
-      <a
-        href='https://www.facebook.com/tridib.chakraborty.180'
+      <div
         className={`fb${clicked === "fb" ? " clicked" : ""}`}
         onClick={() => handleClick("fb")}
-        style={{ textDecoration: "none", color: "inherit" }}
-        target='_blank' // Open link in new window
-        rel='noopener noreferrer' // Add security measures
       >
         <LiaFacebook style={{ fontSize: "40px" }} />
-      </a>
+      </div>
       <div
         className={`tw${clicked === "tw" ? " clicked" : ""}`}
         onClick={() => handleClick("tw")}

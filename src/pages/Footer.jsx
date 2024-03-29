@@ -6,11 +6,29 @@ export default function Footer() {
       <footer className='footer'>
         <p className='attribution'>
           Challenge by{" "}
-          <a href='#' target='_blank'>
+          <a
+            href='#'
+            target='_blank'
+            style={{
+              color: "white",
+              textDecoration: "none",
+              fontWeight: "bold",
+              textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)",
+            }}
+          >
             Frontend Mentor
           </a>
           . Coded by{" "}
-          <a href='https://www.facebook.com/tridib.chakraborty.180'>
+          <a
+            href='#'
+            target='_blank'
+            style={{
+              color: "white",
+              textDecoration: "none",
+              fontWeight: "bold",
+              textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)",
+            }}
+          >
             Tridib Chakraborty
           </a>
           .

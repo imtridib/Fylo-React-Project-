@@ -14,7 +14,7 @@ import Illus2 from "../img/illustration-2.svg";
 import icon from "../img/icon-quotes.svg";
 import iconarrow from "../img/icon-arrow.svg";
 import back from "../img/bg-curve-desktop.svg";
-import logo from "../img/logo.svg";
+import logo2 from "../img/logo2.svg";
 import phone from "../img/icon-phone.svg";
 import email from "../img/icon-email.svg";
 import { LiaFacebook, LiaTwitter, LiaInstagram } from "react-icons/lia";
@@ -35,13 +35,12 @@ export default function Menu() {
 
           <div>
             <form className='email1'>
-              <label for='email'></label>
               <input
                 className='email'
                 type='email'
                 id='email'
                 name='email'
-                placeholder='enter you email...'
+                placeholder='  Enter you email...'
               />
               <button className='button1'>Get Started For Free</button>
             </form>
@@ -121,13 +120,12 @@ export default function Menu() {
 
         <div className='eml'>
           <form className='email2'>
-            <label for='email'></label>
             <input
               className='emaill'
               type='email'
               id='email'
               name='email'
-              placeholder='enter you email...'
+              placeholder='  Enter you email...'
             />
             <button className='button2'>Get Started For Free</button>
           </form>
@@ -137,7 +135,12 @@ export default function Menu() {
       <div className='container-4'>
         <div className='icon2'>
           <a href='#'>
-            <img src={logo} />
+            <img
+              className='lg2'
+              src={logo2}
+              alt='Description of your SVG'
+              style={{ height: "43px", width: "130px" }}
+            />
           </a>
         </div>
 
